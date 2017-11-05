@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.summary {
+  display:block;
+  width:400px;
+}
+
+th {
+  text-align:center;
+}
+
+.searchBox {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.App-intro {
+  margin-top:20px;
+}
