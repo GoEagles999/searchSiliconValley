@@ -1,0 +1,18 @@
+Analyse the code and provide answers to the following questions:
+1. What do you think is wrong with the code, if anything?
+2. Can you see any potential problems that could lead to unexpected behaviour?
+ How might you refactor this code to:
+3. Make it easier to read
+4. Increase code reuse
+5. Improve the testability
+6. Minimize unhandled exceptions
+
+1. 
+- What is the type of the request this function is supposed to handle ie GET or POST? There is both req.body and req.params specified which does not make sense, it should be only one of them.
+- Using var instead of const -> not good for performance.
+- Why is it checking only the '201' status code, and not 200 on handling the reponse?
+2. Different response codes unhandled
+3. Use newest ES syntax (arrow functions etc)
+4. Abstract Shop.findById and User.findOneAndUpdate logic into functions.
+5. Don't know
+6. Don't know
